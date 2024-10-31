@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h1{
+    margin-bottom: 10px
+}
+.Maincont{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px;
+    grid-template-columns: 70px 70px 70px 70px 70px;
+   
+}
+
+.Maincont div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px; 
+    border: 1px solid;
+}
+
+.green{
+    background-color: green;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.yellow{
+    background-color:yellow;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.black{
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    font-weight: bold;
+}
+
