@@ -48,7 +48,7 @@ function Check_win(){
             count++;
             greens[i]='';
             Myanswer[i]='';
-            inpt[j].classList.add('green');
+            inpt[j].style.backgroundColor ='lightgreen'
         }
         j++;
     }  
@@ -64,7 +64,7 @@ function Check_win(){
                     break;
                 }
              }
-            inpt[j].classList.add('yellow');
+            inpt[j].style.backgroundColor = 'yellow';
         }
         j++;
     }
@@ -73,7 +73,8 @@ function Check_win(){
 
     for(let i=0;i<Word_to_guest.length;i++){
         if(Myanswer[i]!==''){
-            inpt[j].classList.add('black');
+            inpt[j].style.backgroundColor = 'black';
+            inpt[j].style.color = 'white';
         }
         j++;
     }
