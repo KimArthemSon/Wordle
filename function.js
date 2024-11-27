@@ -94,7 +94,7 @@ function win(){
    document.getElementById("score").textContent = "Score: "+score;
    setTimeout(()=>{
     fillBoard(resetGame());
-   },200)
+   },400)
 }
 const aplha = "abcdefghijklmnopqrstuvwxyz";
 function isLetter(letter){
@@ -107,8 +107,7 @@ function resetGame(){
     Myguest.pop();
   }
   for(let i=0;i<inpt.length;i++){
-     inpt[i].className = '';
-     inpt[i].classList.add('inpt');
+     inpt[i].style.backgroundColor = '#f5f5f5';
   }
  
   endCol = 5;
