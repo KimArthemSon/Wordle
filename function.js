@@ -108,6 +108,7 @@ function resetGame(){
   }
   for(let i=0;i<inpt.length;i++){
      inpt[i].style.backgroundColor = '#f5f5f5';
+     inpt[i].style.color = 'black';
   }
  
   endCol = 5;
